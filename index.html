@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhombus and Parallelogram</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .rhombus {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transform: rotate(-45deg);
+        }
+        .parallelogram {
+            width: 80px;
+            height: 60px;
+            background: red;
+            transform: skewX(45deg) translate(50px, -45px);
+        }
+        .mirror-parallelogram {
+            width: 80px;
+            height: 60px;
+            background: red;
+            transform: skewX(-45deg) translate(-30px, 45px);
+        }
+        .right-parallelogram {
+            width: 80px;
+            height: 75px;
+            background: red;
+            transform: skewX(45deg) translate(0px, -40px);
+        }
+        .right-mirror-parallelogram {
+            width: 80px;
+            height: 75px;
+            background: red;
+            transform: skewX(-45deg) translate(-85px, 35px);
+        }
+    </style>
+</head>
+<body>
+    <div class="rhombus"></div>
+    <div class="parallelogram"></div>
+    <div class="mirror-parallelogram"></div>
+    <div class="right-parallelogram"></div>
+    <div class="right-mirror-parallelogram"></div>
+</body>
+</html>
